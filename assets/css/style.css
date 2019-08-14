@@ -43,7 +43,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   color: #222;
-  background-color: #fafafa;
+  background-color: #ffffff;
   font: 400 14px/1.625 -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
     Segoe UI Symbol;
@@ -57,7 +57,7 @@ body {
 }
 
 a {
-  color: #2ab591;
+  color: #00AA55;
 }
 
 code {
@@ -93,4 +93,38 @@ code {
 
 [role='contentinfo'] .deploy {
   max-width: 40%;
+}
+
+.grid {
+  /*display: flex;
+  flex-wrap: wrap;*/
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-gap: 4em;
+  margin-bottom: 3em;
+}
+
+.card {
+  border: 1px solid #dddddd;
+  border-radius: .25rem;
+}
+
+.bg-img {
+  background-size: cover;
+  min-height: 180px;
+  background-position: center;
+  background-color: #ffffff;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.center {
+  text-align: center; margin-block-start: .5rem;
+}
+
+h4 {
+  margin-block-end: .5rem;
+  margin-block-start: .5rem;
 }

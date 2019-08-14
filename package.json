@@ -12,6 +12,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chota": "^0.6.2",
     "sergey": "0.0.7"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matto2/sergey-netlify2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matto2/sergey-netlify2/issues"
+  },
+  "homepage": "https://github.com/matto2/sergey-netlify2#readme"
 }
