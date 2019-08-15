@@ -79,7 +79,11 @@ code {
 }
 
 [role='banner'] a + a {
-  margin-left: 0.5em;
+  margin-left: 0.5em; 
+}
+
+[role='navigation'] {
+  background: #fff;
 }
 
 /* Footer */
@@ -121,7 +125,10 @@ code {
 }
 
 .center {
-  text-align: center; margin-block-start: .5rem;
+
+  text-align: center; 
+  margin-block-start: .5rem;
+
 }
 
 h4 {
