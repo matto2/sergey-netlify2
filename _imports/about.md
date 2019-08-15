@@ -2,6 +2,8 @@
 
 Quite often when I want to buy something on the internet or try to reserve airline tickets I fill in all the necessary information, hit the submit button, and nothing happens. What might I have left out or typed wrong? The answer turns out to be not what I typed wrong or left out, but what I put in—the apostrophe.
 
+<img src="/images/sign-in.png" alt="invalid-name" title="invalid-name">
+
 For the most part, computers and apostrophes have never become fast friends. It’s a spotty situation. Online programs seem to have no trouble in accepting apostrophes when they are doing their two main assignments: subbing for omitted letters, as in “can’t” for “cannot,” or indicating possession, like “Where is the dog’s water bowl?” But come to being used in Irish names it’s game over. My little mark is treated as an unacceptable, non-conforming “foreign element.” Grrr.
 
 Out of this frustration, and the sense that we were not alone, was born the idea to form the Keep the Apostrophe in Irish Names advocacy group along with my son Matt O'Leary.
