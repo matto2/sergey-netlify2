@@ -1,8 +1,10 @@
-### My name is Thomas O’Leary
+#### My name is Thomas O’Leary
+
+<img align="left" src="/images/tom-photo.jpg" class="left" alt="invalid-name" title="invalid-name">
 
 Quite often when I want to buy something on the internet or try to reserve airline tickets I fill in all the necessary information, hit the submit button, and nothing happens. What might I have left out or typed wrong? The answer turns out to be not what I typed wrong or left out, but what I put in—the apostrophe.
 
-<img src="/images/sign-in.png" alt="invalid-name" title="invalid-name">
+<img src="/images/bad-form.svg" alt="invalid name message with mad emoji" title="invalid-name">
 
 For the most part, computers and apostrophes have never become fast friends. It’s a spotty situation. Online programs seem to have no trouble in accepting apostrophes when they are doing their two main assignments: subbing for omitted letters, as in “can’t” for “cannot,” or indicating possession, like “Where is the dog’s water bowl?” But come to being used in Irish names it’s game over. My little mark is treated as an unacceptable, non-conforming “foreign element.” Grrr.
 
@@ -23,3 +25,16 @@ Scripturient writer Ian Chadwick muses on the possible dropping of apostrophes: 
 A major bank that I attend regularly cannot accommodate my name being spelled correctly in its master files or on my credit card. The best the bank can do is print my last name correctly for my checkbook checks. A leading airline has me correctly in older files, but once it merged with a smaller line the apostrophe got dropped. The only way I can make a reservation is to telephone and asked not to be slapped with a special fee to book over the phone since the system has me in two conflicting versions that won’t accept me on line. Also, there is the worry that you’ll have problems with tight security at airport checkin, where a name on your ticket has to exactly match your ID documents.
 
 I have a hunch that if robot computers had their way, we Irish and everybody else would be identified with numbers, like prisoners, or even worse with a quick scanning of our bar codes.
+___
+
+#### An expert opinion
+
+For an expert's take on this topic, we chatted with **Ashish Lakhiani**, Computer Scientist, Software and Business Enthusiast with over 10 years of industry experience.
+
+**_Is it technically possible for software applications to accept an apostrophe in the name input field?_**
+
+Yes, it's possible. Information Technology specialists can develop code level checks, by writing a few more lines of code, to allow the usage of this character in name field data entry points of user interfaces (mobile, web, etc.).
+
+**_Why doesn't every company just do that?_**
+
+There are potential security implications. Computer Programmers and Information Security advisors aim to decrease the attack surface and strengthen the attack vectors in the systems that they develop. This is important for keeping systems safe from attackers. It’s common practice to decrease the opportunity for an end user to enter special characters such as (? | | " | % | \ | / | : | ‘ * | Due to their usage in popular programming languages like C, C++, PHP, C#, SQL, and Java many of these characters can trigger code execution in Information Systems if not handled correctly in the code. Although the intention of Computer Programmers and Information Security advisors is beneficial for end user safety, it is unfair to ask individuals to skip the apostrophe in their names due to this reason. With a little bit more work on code level checks this character can be allowed for use. Apostrophes in names have cultural value and help to make them unique in an artistic way. This character should be accommodated for names in software systems.

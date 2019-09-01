@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="746" height="287" viewBox="0 0 746 287">
+  <defs>
+    <clipPath id="clip-bad-form">
+      <rect width="746" height="287"/>
+    </clipPath>
+  </defs>
+  <g id="bad-form" clip-path="url(#clip-bad-form)">
+    <rect width="746" height="287" fill="#fff"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="643" height="75" rx="4" transform="translate(49 34)" fill="#e8e6f0"/>
+    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(49 145)" fill="#e8e6f0" stroke="#f40909" stroke-width="2">
+      <rect width="643" height="75" rx="4" stroke="none"/>
+      <rect x="1" y="1" width="641" height="73" rx="3" fill="none"/>
+    </g>
+    <text id="Thomas" transform="translate(84 82)" fill="#333" font-size="30" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Thomas</tspan></text>
+    <text id="O_Leary" data-name="O’Leary" transform="translate(84 193)" fill="#f70d0d" font-size="30" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">O’Leary</tspan></text>
+    <text id="Please_enter_a_valid_name." data-name="Please enter a valid name." transform="translate(48 252)" fill="#fa0606" font-size="21" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">Please enter a valid name.</tspan></text>
+    <path id="Union_1" data-name="Union 1" d="M0,35,44,0V21h79V49H44V70Z" transform="matrix(0.819, -0.574, 0.574, 0.819, 307.047, 204.605)" fill="#0ac627"/>
+    <text id="_" data-name="😠 " transform="translate(424 170)" fill="#fa0606" font-size="71" font-family="AppleColorEmoji, Apple Color Emoji"><tspan x="0" y="0">😠</tspan><tspan y="0" font-family="Montserrat-Bold, Montserrat" font-weight="700"> </tspan></text>
+  </g>
+</svg>

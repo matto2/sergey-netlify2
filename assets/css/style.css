@@ -105,7 +105,7 @@ code {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   grid-gap: 4em;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 }
 
 .card {
@@ -124,14 +124,70 @@ code {
   padding: 1rem;
 }
 
-.center {
+.navcenter {
 
   text-align: center; 
-  margin-block-start: .5rem;
-
+  /* margin-block-start: .5rem; */
+  margin: .5rem;
+  color: #333333;
 }
+
+.navcenter a {
+margin: .5rem;
+color: #333333;
+text-decoration: none; 
+}
+ 
+.navcenter a:hover { 
+  text-decoration: underline; 
+  }
 
 h4 {
   margin-block-end: .5rem;
   margin-block-start: .5rem;
 }
+
+[aria-current] {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.navcenter a.active {
+  margin: .5rem;
+  color: #00AA55;
+  }
+
+ .left {
+   text-align: left;
+   margin-right: 1rem;
+ } 
+
+ .navcenter-md {
+
+  text-align: center; 
+  /* margin-block-start: .5rem; */
+  margin: .5rem;
+  color: #333333;
+  margin-top: -.7rem;
+}
+
+.navcenter-md a {
+  margin: .5rem;
+  color: #333333;
+  text-decoration: none; 
+  }
+   
+  .navcenter-md a:hover { 
+    text-decoration: underline; 
+    }
+  
+  .navcenter-md a.active {
+    margin: .5rem;
+    color: #00AA55;
+    }
+
+  .secure-center {
+
+    margin: auto;
+  
+  }  
