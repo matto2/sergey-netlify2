@@ -203,7 +203,6 @@ h4 {
     letter-spacing: .3px;
     display: block;
     cursor: pointer;
-    transition: background 200ms ease;
     max-width: 100%;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -216,4 +215,32 @@ h4 {
 
 .form_btn:hover {
   background-color: #09904d;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.form {
+  display: block;
+}
+
+input {
+  font: 400 1em system-ui;
+  width: 26em; 
+  height: 1.5em;
+  border: .1em solid #cccccc;
+}
+
+textarea {
+  font: 400 1em system-ui;
+  width: 26em; 
+  height: 6em;
+  border: .1em solid #cccccc;
+}
+
+label {
+  cursor: default;
+  vertical-align: text-top;
 }
