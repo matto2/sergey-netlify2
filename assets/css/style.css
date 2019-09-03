@@ -198,7 +198,7 @@ h4 {
     padding-right: 42px;
     border-radius: 42px;
     color: #fff;
-    font-size: 15px;
+    font-size: 1em;
     padding: 12px 40px;
     letter-spacing: .3px;
     display: block;
@@ -223,24 +223,25 @@ h4 {
 
 
 .form {
-  display: block;
+  display: flex;
 }
 
 input {
   font: 400 1em system-ui;
-  width: 26em; 
+  width: 300px; 
   height: 1.5em;
   border: .1em solid #cccccc;
 }
 
 textarea {
   font: 400 1em system-ui;
-  width: 26em; 
+  width: 300px; 
   height: 6em;
   border: .1em solid #cccccc;
 }
 
 label {
   cursor: default;
-  vertical-align: text-top;
+  vertical-align: top;
+
 }

@@ -10,13 +10,13 @@
     <main class="wrapper"> 
         <h4>Share your apostrophe story</h4>
 
-        <form name="contact" class="form" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+        <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
           <p class="hidden">
             <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
           </p>
           
-          <p>
-            <label>Your Name: <input type="text" name="name" /></label>   
+          <p class="form" >
+            <label>Your Name <input type="text" name="name" style="vertical-align: text-top"/></label>   
           </p>
           <!--
           <p>
@@ -31,8 +31,8 @@
           </p>
 
         -->  
-          <p>
-            <label>Message: <textarea name="message"></textarea></label>
+        <p class="form" >
+          <label>Message <textarea name="message" style="vertical-align: text-top"></textarea></label>
           </p>
           <p>
             <button class = "form_btn" type="submit">Send</button>
