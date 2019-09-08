@@ -10,11 +10,15 @@
     <main class="wrapper"> 
         <h4>Share your apostrophe story</h4>
 
+        <div class="fb-comments" data-href="https://sleepy-ramanujan-a09461.netlify.com/discuss/" data-width="100%" data-numposts="30" data-order-by="reverse_time
+        "></div>
+
+<!--
         <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
           <p class="hidden">
             <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
           </p>
-          <!--
+          
           <p>
             <label>Your Name <input type="text" name="name"/></label>   
           </p>
@@ -30,12 +34,12 @@
             </select></label>
           </p>
 
-        -->  
+         
         <form name="contact" method="POST" data-netlify="true">
           <p>
             <label>Your Name <input type="text" name="name" /></label>   
           </p>
-          <!--<p>
+          <p>
             <label>Your Email: <input type="email" name="email" /></label>
           </p>
           <p>
@@ -43,7 +47,7 @@
               <option value="leader">Leader</option>
               <option value="follower">Follower</option>
             </select></label>
-          </p>-->
+          </p>
           <p>
             <label>Message <textarea name="message"></textarea></label>
           </p>
@@ -52,7 +56,7 @@
           </p>
         </form>
 
-        
+        -->
 
 
 
@@ -66,6 +70,15 @@
 
     <sergey-import src="footer" />
   </body>
+
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=708916895962798";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
   
   
